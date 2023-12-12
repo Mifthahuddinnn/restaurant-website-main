@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant</title>
+    <link rel="icon" href="./img/ea.png" type="image/png">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-secondary sticky-top">
+        <div class="container">
+            <a class="navbar-brand text-white" href="#">
+                <i class="fa-solid fa-utensils fa-shake"></i>
+                <span class="m-2">Restaurant</span>
+            </a>
+        </div>
+    </nav>
+    <!-- Carousel -->
+
+    <div class="carousel" id="carouselContainer">
+
+    </div>
+
+    <!-- Search and Refresh -->
+    <div class="container mt-3 mb-3">
+        <div class="input-group">
+            <input type="text" id="searchInput" class="form-control" placeholder="Search...">
+            <div class="input-group-append">
+                <button id="searchButton" class="btn btn-primary">Search</button>
+                <button id="refreshButton" class="btn btn-secondary">Refresh</button>
+                <alphabetical-filter></alphabetical-filter>
+            </div>
+        </div>
+    </div>
+
+    <!-- Card Section -->
+    <div class="container mt-4 " id="menu">
+        <div class="row justify-content-center" id="cardRow">
+
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="text-center text-white">
+        <div class="container p-4">
+            <section class="mb-3">
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button">
+                    <i class="fab fa-google"></i>
+                </a>
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button">
+                    <i class="fab fa-github"></i>
+                </a>
+            </section>
+
+            <div class="text-center p-3">
+                © 2023 Copyright:
+                <a class="text-white" href="">Mifthahuddin</a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
